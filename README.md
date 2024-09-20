@@ -30,13 +30,13 @@ $ conda install python=3.7.4
 
 2) Git clone directory and install nessasory package
 ```
-$ git clone https://github.com/yifding/hetseq.git
+$ git clone https://github.com/Bruno-Leite-Franco/hetseq.git
 $ cd /path/to/hetseq
 $ pip install -r requirements.txt 
 $ pip install --editable . 
 ```
 
-3) **To Run BERT:** Download data files including training corpus, model configuration, and BPE dictionary. Test corpus from [here](https://drive.google.com/file/d/1ZPJVAiV7PsewChi7xKACrjuniJ2N9Sry/view?usp=sharing), full data from [this link](https://drive.google.com/file/d/1Vq_UO-T9345uYs8a7zloukGfhDXSDd2A/view?usp=sharing). Download test_DATA.zip for test or DATA.zip for full run, unzip it and place the ```preprocessing/``` directory inside the package directory. Available corpus under ```preprocessing/```, 
+3) **To Run BERT:** Download data files including training corpus, model configuration, and BPE dictionary. Corpus from [here](https://drive.google.com/file/d/1ZPJVAiV7PsewChi7xKACrjuniJ2N9Sry/view?usp=sharing). Download test_DATA.zip for test or DATA.zip for full run, unzip it and place the ```preprocessing/``` directory inside the package directory. Available corpus under ```preprocessing/```, 
 
 * phase one of BERT training corpus : ```preprocessing/hdf5_lower_case_1_seq_len_128.../wikicorpus_en/```
 * phase two of BERT training corpus : ```preprocessing/hdf5_lower_case_1_seq_len_512.../wikicorpus_en/```
